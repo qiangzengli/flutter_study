@@ -88,7 +88,7 @@ class _LifecyclePageState extends State<LifecyclePage> {
                 valueListenable: numValueNotifier,
                 builder: (_, int num, __) {
                   print('invoke notifier build()');
-                  return Text('ValueNotifier 刷新');
+                  return Text('ValueNotifier 刷新$num');
                 }),
             ButtonBar(
               children: [
