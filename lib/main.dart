@@ -1,11 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_study/animated_container.dart';
+import 'package:flutter_study/animation/animation_controller_page.dart';
+import 'package:flutter_study/gesture/spring.dart';
 
 import 'absorb_pointer_page.dart';
+import 'lifecycle_page.dart';
 
 final routes = {
   '/absorb_pointer': (_) => AbsorbPointerPage(),
   '/animated_container': (_) => AnimatedContainerPage(),
+  '/animation_controller': (_) => AnimationControllerPage(),
+  '/spring_page': (_) => SpringPage(),
+  '/lifecycle_page': (_) => LifecyclePage(),
 };
 
 void main() {
