@@ -22,6 +22,5 @@ class LinearLayoutRenderObject extends RenderBox {
   @override
   void paint(PaintingContext context, Offset offset) {
     super.paint(context, offset);
-
   }
 }

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_study/animated_container.dart';
 import 'package:flutter_study/animation/animation_controller_page.dart';
 import 'package:flutter_study/column_page.dart';
+import 'package:flutter_study/custom_single_child_widget/custom_single_child_page.dart';
 import 'package:flutter_study/gesture/spring.dart';
 import 'package:flutter_study/stream_scroll_controller_page.dart';
 
@@ -16,6 +17,7 @@ final routes = {
   '/lifecycle_page': (_) => LifecyclePage(),
   '/stream_scroll_page': (_) => StreamScrollControllerPage(),
   '/column_page': (_) => ColumnPage(),
+  '/custom_single_child_page': (_) => CustomSingleChildPage(),
 };
 
 void main() {
