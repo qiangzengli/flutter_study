@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_study/animated_container.dart';
 import 'package:flutter_study/animation/animation_controller_page.dart';
+import 'package:flutter_study/column_page.dart';
 import 'package:flutter_study/gesture/spring.dart';
+import 'package:flutter_study/stream_scroll_controller_page.dart';
 
 import 'absorb_pointer_page.dart';
 import 'lifecycle_page.dart';
@@ -12,6 +14,8 @@ final routes = {
   '/animation_controller': (_) => AnimationControllerPage(),
   '/spring_page': (_) => SpringPage(),
   '/lifecycle_page': (_) => LifecyclePage(),
+  '/stream_scroll_page': (_) => StreamScrollControllerPage(),
+  '/column_page': (_) => ColumnPage(),
 };
 
 void main() {
