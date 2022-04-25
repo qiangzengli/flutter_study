@@ -4,6 +4,7 @@ import 'package:flutter_study/animation/animation_controller_page.dart';
 import 'package:flutter_study/column_page.dart';
 import 'package:flutter_study/custom_single_child_widget/custom_single_child_page.dart';
 import 'package:flutter_study/gesture/spring.dart';
+import 'package:flutter_study/key/key01.dart';
 import 'package:flutter_study/stream_scroll_controller_page.dart';
 
 import 'absorb_pointer_page.dart';
@@ -18,6 +19,7 @@ final routes = {
   '/stream_scroll_page': (_) => StreamScrollControllerPage(),
   '/column_page': (_) => ColumnPage(),
   '/custom_single_child_page': (_) => CustomSingleChildPage(),
+  '/key01': (_) => Key01(),
 };
 
 void main() {
@@ -54,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: routes.keys
               .map(
                 (e) => ListTile(
-                  title: Text(e),
+                  title: Text(e.replaceFirst("/", "")),
                   onTap: () {
                     Navigator.of(context).pushNamed(e);
                   },
