@@ -6,6 +6,7 @@ import 'package:flutter_study/custom_single_child_widget/custom_single_child_pag
 import 'package:flutter_study/gesture/spring.dart';
 import 'package:flutter_study/key/key01.dart';
 import 'package:flutter_study/stream_scroll_controller_page.dart';
+import 'package:flutter_study/table/table_page.dart';
 
 import 'absorb_pointer_page.dart';
 import 'lifecycle_page.dart';
@@ -20,6 +21,7 @@ final routes = {
   '/column_page': (_) => ColumnPage(),
   '/custom_single_child_page': (_) => CustomSingleChildPage(),
   '/key01': (_) => Key01(),
+  '/table': (_) => TableList(),
 };
 
 void main() {
