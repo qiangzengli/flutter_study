@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_study/animated_container.dart';
+import 'package:flutter_study/animation/animated_widget_page.dart';
 import 'package:flutter_study/animation/animation_controller_page.dart';
+import 'package:flutter_study/animation/page_route_builder.dart';
 import 'package:flutter_study/column_page.dart';
 import 'package:flutter_study/custom_single_child_widget/custom_single_child_page.dart';
 import 'package:flutter_study/gesture/spring.dart';
@@ -22,6 +24,8 @@ final routes = {
   '/custom_single_child_page': (_) => CustomSingleChildPage(),
   '/key01': (_) => Key01(),
   '/table': (_) => TableList(),
+  '/page_route_builder': (_) => PageRouteBuilderPage1(),
+  '/animated_widget': (_) => AnimatedWidgetPage1(),
 };
 
 void main() {
